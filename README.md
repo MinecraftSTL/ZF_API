@@ -34,7 +34,7 @@ https://jwgl.XXXX.edu.cn/xsxk/zzxkyzb_cxZzxkYzbChoosedDisplay.html?gnmkdm=N25351
 | 变量名    | 值(示例)                         | 注释                           | 是否必须 |
 | --------- | -------------------------------- | ------------------------------ | -------- |
 | `xkxnm`   | 2021                             | 当前学期年份如2021-2022 即2021 | ✓        |
-| `xkxqm`   | 12                               | 定值(可能)                     | ✓        |
+| `xkxqm`   | 12                               | 选课学期名[上学期: 3, 下学期: 12]| ✓        |
 | `jg_id`   | 14                               | 学院代号                       |          |
 | `zyh_id`  | 1401                             | 专业代号                       |          |
 | `njdm_id` | 2019                             | 年级代码                       |          |
@@ -149,7 +149,7 @@ https://jwgl.XXXX.edu.cn/xsxk/zzxkyzb_cxZzxkYzbPartDisplay.html?gnmkdm=N253512&s
 | `bh_id`        | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | 个人编号(每个人唯一)            | 主修课：✓ 选修课：✗ |
 | `xkxnm`        | 2021                             | 当前学期年份如2021-2022 即2021 | ✓                   |
 | `xkxqm`        | 12                               | 定值                     | ✓                   |
-| `kklxdm`       | 01                               | `01`为主修课 `10`为选修课      | ✓                   |
+| `kklxdm`       | 01                               | `01`为主修课 `05`体育分项 `06`为板块课 `10`为选修课| ✓                   |
 | `kspage`       | 1                                | 页号                     | ✓                   |
 | `jspage`       | 10                               | 一页显示的数量                | ✓                   |
 | `bklx_id`      | 0                                |                        |                     |
@@ -157,7 +157,7 @@ https://jwgl.XXXX.edu.cn/xsxk/zzxkyzb_cxZzxkYzbPartDisplay.html?gnmkdm=N253512&s
 | `xqh_id`       | 1                                | 校区号                    |                     |
 | `jg_id`        | 14                               | 学院代号                   |                     |
 | `njdm_id_1`    | 2019                             | 年级代码                   |                     |
-| `zyh_id_1`     | 1401                             | 专业号？                   |                     |
+| `zyh_id_1`     | 1401                             | 专业号                     |                     |
 | `zyfx_id`      | wfx                              | 专业方向                   |                     |
 | `xbm`          | 1                                |                        |                     |
 | `xslbdm`       | 421                              |                        |                     |
